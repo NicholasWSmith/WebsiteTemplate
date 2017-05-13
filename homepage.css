@@ -1,0 +1,80 @@
+#headerimage{
+  width: 100%;
+}
+
+.box {
+  display: inline-block;
+  width: 75%;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.bottom {
+  display: inline-block;
+  width: 100%;
+  height: 250px;
+  background-color: grey;
+  padding: 14px 16px;
+  color: white;
+  font-family: 'DINPro-Regular',Arial,Helvetica,Verdana,sans-serif;
+}
+
+.bottom a {
+    float: left;
+    width: 50px;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.footer{
+
+  width: 100%;
+  height: 80px;
+  background-color: #343530;
+  padding: 14px 16px;
+  color: white;
+  font-family: 'DINPro-Regular',Arial,Helvetica,Verdana,sans-serif;
+}
+
+#socialmedia {
+  display: inline-block;
+  width: 20%;
+  height: 500px;
+  border: 2px solid black;
+  float: right;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #343530;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
