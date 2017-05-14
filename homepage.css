@@ -2,28 +2,29 @@ body {
     padding: 0;
     margin: 0;
 }
+ul
+{
+    padding: 0;
+    margin: 0;
+}
 
-.bottom {
-  display: inline-block;
+.bottom-container {
   width: 100%;
   height: 250px;
   background-color: grey;
   padding: 14px 16px;
-  color: white;
-  font-family: 'DINPro-Regular',Arial,Helvetica,Verdana,sans-serif;
   vertical-align: top;
+  position: relative;
 }
 
-.bottom a {
+.bottom-text a {
     float: left;
-    width: 50px;
     color: #f2f2f2;
-    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
-    font-family: monospace;
-    font-weight: bold;
+    font-size: 12px;
+    font-family: 'DINPro-Regular',Arial,Helvetica,Verdana,sans-serif;
+    position: absolute;
 }
 
 .footer{
