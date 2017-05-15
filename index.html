@@ -15,12 +15,6 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
@@ -37,47 +31,92 @@
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
 
-         <h1>Course Sign Up Page</h1>
 
-    <p>Please Note: All fields required.</p>
+        <div class="topnav" id="myTopnav">
+          <a href="#home">Home</a>
+          <a href="#store">Store</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="#login" id="user">Login</a>
+          <a href="#signup" id="user">Sign Up</a>
 
-    <form class="" action="index.html" method="post">
+          <form class="" action="" method="post">
 
-      <label for="fn">First Name:</label>
-      <input id="fn" type="text" name="firstname" value="" placeholder="First Name" required>
+            <input type="text" name="search" placeholder="Search">
 
-      <label for="ln">Last Name:</label>
-      <input id="ln" type="text" name="lastname" value="" placeholder="Last Name" required>
+          </form>
+        </div>
 
-      <p></p>
+    <div class="main-container">
 
-      <label for="mail">Email:</label>
-      <input id="mail" type="email" name="firstname" value="" placeholder="email@example.com" required>
+      <h1>Sign In Page</h1>
 
-      <label for="password">Password:</label>
-      <input id="mail" type="email" name="firstname" value="" placeholder="Password" required>
+      <p>Please Note: All fields required.</p>
 
-      <p>Are you over 18?</p>
+      <form class="" action="index.html" method="post">
 
-      <label for="y">Yes:</label>
-      <input id="y" type="radio" name="agecheck" value="yes">
+        <label for="fn">First Name:</label>
+        <input id="fn" type="text" name="firstname" value="" placeholder="First Name" required>
 
-      <label for="y">No:</label>
-      <input id="y" type="radio" name="agecheck" value="no">
+        <label for="ln">Last Name:</label>
+        <input id="ln" type="text" name="lastname" value="" placeholder="Last Name" required>
 
-      <p>Do you have a Credit Card or PayPal?</p>
+        <p></p>
 
-      <select class="" name="payment">
-        <option value="cc">Credit Card</option>
-        <option value="pp">PayPal</option>
+        <label for="mail">Email:</label>
+        <input id="mail" type="email" name="firstname" value="" placeholder="email@example.com" required>
 
-      </select>
-      
-      <p></p>
+        <label for="password">Password:</label>
+        <input id="mail" type="email" name="firstname" value="" placeholder="Password" required>
 
-      <input type="submit" name="" value="Sign Up!">
+        <p>Are you over 18?</p>
 
-    </form>
+        <label for="y">Yes:</label>
+        <input id="y" type="radio" name="agecheck" value="yes">
+
+        <label for="y">No:</label>
+        <input id="y" type="radio" name="agecheck" value="no">
+
+        <p>Do you have a Credit Card or PayPal?</p>
+
+        <select class="" name="payment">
+          <option value="cc">Credit Card</option>
+          <option value="pp">PayPal</option>
+
+        </select>
+
+        <p></p>
+
+        <input type="submit" name="" value="Sign Up!">
+
+      </form>
+
+    </div>
+
+    <div class="bottom-container">
+        <div id="bottom-text2">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Email Sign-Up</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div id="bottom-text1">
+          <ul>
+            <li><a href="#">Package Tracking</a></li>
+            <li><a href="#">Cancel Subscription</a></li>
+            <li><a href="#">Whatever</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+      <p>Copyright Company Name.</p>
+    </div>
 
 
     </body>
