@@ -93,39 +93,12 @@ textarea {
      text-align: center;
    }
 
-   .bottom-container {
-     width: 100%;
-     height: 250px;
-     background-color: grey;
-     padding: 14px 16px;
-     vertical-align: top;
-     position: relative;
-   }
-
-   .bottom-text a {
-       float: left;
-       color: #f2f2f2;
-       padding: 14px 16px;
-       text-decoration: none;
-       font-size: 12px;
-       font-family: 'DINPro-Regular',Arial,Helvetica,Verdana,sans-serif;
-       position: absolute;
-   }
-
-   .footer{
-
-     width: 100%;
-     height: 60px;
-     background-color: #343530;
-     padding: 14px 16px;
-     color: white;
-     font-family: 'DINPro-Regular',Arial,Helvetica,Verdana,sans-serif;
-   }
-
    .topnav {
        background-color: #343530;
        overflow: hidden;
        width: 100%;
+       border: 1px;
+       border-color: grey;
    }
 
    /* Style the links inside the navigation bar */
@@ -139,6 +112,8 @@ textarea {
        font-size: 18px;
        font-family: 'Open Sans', sans-serif;
        font-weight: bold;
+       border: 1px;
+       border-color: grey;
    }
 
    /* Change the color of links on hover */
@@ -154,32 +129,87 @@ textarea {
    }
 
    input[type=text] {
-       width: 130px;
        border: 2px solid #ccc;
+       border-radius: 2px;
        font-size: 16px;
        background-color: white;
        background-image: url('searchicon.png');
        background-position: 5px 5px;
        background-repeat: no-repeat;
-       padding: 12px 20px 12px 40px;
        -webkit-transition: width 0.4s ease-in-out;
        transition: width 0.4s ease-in-out;
-       float: right;
        margin: 10px;
    }
 
+   input[type=email] {
+       border: 2px solid #ccc;
+       border-radius: 2px;
+       font-size: 16px;
+       background-color: white;
+       background-image: url('searchicon.png');
+       background-position: 5px 5px;
+       background-repeat: no-repeat;
+       -webkit-transition: width 0.4s ease-in-out;
+       transition: width 0.4s ease-in-out;
+       margin: 10px;
+   }
+   .myButton {
+     background: #3498db;
+     background-image: -webkit-linear-gradient(top, #3498db, #284b61);
+     background-image: -moz-linear-gradient(top, #3498db, #284b61);
+     background-image: -ms-linear-gradient(top, #3498db, #284b61);
+     background-image: -o-linear-gradient(top, #3498db, #284b61);
+     background-image: linear-gradient(to bottom, #3498db, #284b61);
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 28px;
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 20px;
+     padding: 10px 20px 10px 20px;
+     border: solid #204152 2px;
+     text-decoration: none;
+   }
+
+   .myButton:hover {
+     background: #3cb0fd;
+     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+     text-decoration: none;
+   }
+
+   .bottom-container {
+     width: 100%;
+     height: 250px;
+     background-color: grey;
+     padding: 14px 16px;
+     vertical-align: top;
+     position: relative;
+   }
+
+   .bottom-container a {
+       float: left;
+       color: white;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 12px;
+       font-family: 'DINPro-Regular',Arial,Helvetica,Verdana,sans-serif;
+       position: absolute;
+   }
 
 
+   .footer{
 
-
-
-
-
-
-
-
-
-
+     width: 100%;
+     height: 60px;
+     background-color: #343530;
+     padding: 14px 16px;
+     color: white;
+     font-family: 'DINPro-Regular',Arial,Helvetica,Verdana,sans-serif;
+   }
 
 
 
